@@ -1,0 +1,5 @@
+- hosts: local
+  tasks:
+    - name: Installs tree command-line util
+      apt: pkg=tree state=installed update_cache=true
+      sudo: yes

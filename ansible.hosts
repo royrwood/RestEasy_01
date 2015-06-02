@@ -1,0 +1,5 @@
+#vagrant.localhost ansible_ssh_host=192.168.1.2 ansible_ssh_user=vagrant
+
+
+[local]
+vagrant ansible_ssh_port=2222 ansible_ssh_host=127.0.0.1 ansible_ssh_user=vagrant
